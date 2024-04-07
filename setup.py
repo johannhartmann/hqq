@@ -57,12 +57,11 @@ setup(
         "egg_info": EgginfoCommand,
     },
     install_requires=[
-        "numpy>=1.24.4",
-        "tqdm>=4.64.1",
-        "huggingface_hub",
+        "numpy",
+        "tqdm",
         "accelerate",
         "timm",
-        "transformers>=4.36.1",
+        "transformers",
         "termcolor",
     ],
 )
