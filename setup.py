@@ -13,11 +13,11 @@ def install_cuda_cmd() -> str:
 
 
 def run_setup_cuda():
-    #print("Running setup_cuda.py...")
-    #try:
-    #    os.system(install_cuda_cmd())
-    #except Exception as e:
-    #    print("Error while running setup_cuda.py:", e)
+    print("Running setup_cuda.py...")
+    try:
+        os.system(install_cuda_cmd())
+    except Exception as e:
+        print("Error while running setup_cuda.py:", e)
 
 
 class InstallCommand(install):
